@@ -1,0 +1,12 @@
+Prithee
+_________
+
+fullSonnet: string
+correctCount: integer
+wrongCount: integer
+guess: string
+
+___________________
+Prithee()
+playPrithee():
+printSonnet():

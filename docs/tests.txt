@@ -1,0 +1,19 @@
+guess  answer  ---> expected
+shade  shade        correct
+shade  SHADE        correct
+shade  Shade        correct
+shade  sHaDe        correct
+shade  summer       wrong
+shade  shad         wrong
+fade,  fade,        correct
+fade,  FADE,        correct
+fade,  fade         wrong
+fade,  FADE         wrong
+
+correctCount  wrongCount  guess     answer ----> expected
+0              0          shade     shade         1
+0              0          shade     summer        0
+1              0          lovely    lovely        1
+1              0          lovely    beautiful     0
+2              0          temperate temperate     1
+2              0          temperate hot           0

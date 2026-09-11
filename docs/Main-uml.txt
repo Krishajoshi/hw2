@@ -1,0 +1,4 @@
+Main
+______
+main(args: String[]):
+______
